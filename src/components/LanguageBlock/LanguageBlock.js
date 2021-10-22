@@ -14,4 +14,4 @@ const LanguageBlock = ( {text, image}) =>{
     )
 }
 
-export default LanguageBlock
+export default LanguageBlock 

@@ -1,13 +1,15 @@
 .language{
-    width: 150px;
-    height: 200px;
+    width: 80px;
+    height: 100px;
     margin: 10px;
+    margin-left: 40px;
     /* border: 1px solid red; */
 }
 
 .languageText{
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
+    text-transform: lowercase;
     padding-top: 10px;
     font-weight: bold;
     font-family: 'Cabin', sans-serif;
@@ -15,6 +17,6 @@
 }
 
 .langugeImage{
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
 }

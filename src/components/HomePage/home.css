@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin&display=swap');
 
 *{
-    background-color: rgb(85, 79, 79);
+    /* background-color: rgb(85, 79, 79); */
 }
 
 /* scroll bar */
@@ -48,10 +48,7 @@ body::-webkit-scrollbar-track {
     height: 600px;
     width: 100%;
     align-items: center;  
-    background-image: url('./tree.png'); 
-    background-repeat: no-repeat;
-    background-size: 200px;
-    background-position: bottom;
+  
 }
 
 .HomeSepration{
