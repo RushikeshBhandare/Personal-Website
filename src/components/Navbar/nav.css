@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.root{
+    /* background-color: black; */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 0px;
+}
+
+.sepration{ 
+    height: 40;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    color: black;
+
+}
+
+.category{
+    margin-right: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.contact{
+    background-color: black;
+    border-radius: 15px;
+    height: 50;
+    color: white;
+    padding: 5px;
+}

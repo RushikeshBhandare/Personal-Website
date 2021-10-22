@@ -1,0 +1,20 @@
+.language{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+
+.languageText{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.langugeImage{
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,13 @@
+.otherSkills{
+    margin: 30px;
+    color: rgb(182, 178, 178);
+    font-family: 'Cabin', sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+.otherSkillsLanguages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
