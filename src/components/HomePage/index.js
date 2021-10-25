@@ -1,25 +1,14 @@
 import React, { useEffect,useLayoutEffect, useWindowSize,useState } from "react";
 import './home.css'
-import model from './model.jpg'
+
+//images 
+import down from './down.png'
+import male from './computerMan.png'
 
 import Navbar from "../Navbar";
 import MobileNavbar from "../MobileNavBar";
-
-const GetWindowSize = () =>{
-    const [size, setSize] = useState([window.innerHeight, window.innerWidth])
-    useEffect(()=>{
-        const handleResise = ( ) =>{
-            setSize([window.innerHeight, window.innerWidth])
-        }
-        window.addEventListener('resize', handleResise)
-        return ()=>{
-            window.removeEventListener('resize', handleResise)
-        } 
-        
-    }, [])
-    
-    return size
-}
+import GetWindowSize from "../GetWindowSize";
+ 
 
 
 const HomePage = ( ) =>{
@@ -31,35 +20,56 @@ const HomePage = ( ) =>{
             return <MobileNavbar/>
         }
     }
+
+    const renderAvtar=()=>{
+        if(width > 650){
+            return(
+                <div className="avtarContainer">
+                <img 
+                    className="avtarImage"
+                    src={male}
+                />
+            </div>
+            )
+        }
+    }
+
     return(
-        <div style={{flex: 1, justifyContent: 'center', alignItems:'center'}}> 
-            {/* Navigation Opions */}
-          
-           {
-               renderNavbar()
+        <div style={{flex: 1, backgroundColor: 'orange ', justifyContent: 'center', alignItems:'center'}}> 
            }
 
             <div className="rootContainer">
                 {/* name and options */}
                 
                 <div className="HomeSepration">
-                    
-                    <div className="aboutTextSection">
-                        {/* About Information */}
-                        <div className="hi">
-                            Hi, I am 
-                        </div>
+                    <div className="ImageAndTextSaprator">
+                        <div className="aboutTextSection">
+                            {/* About Information */}
+                            <div className="hi">
+                                Hi, I am 
+                            </div>
 
-                        <div className="nameText">
-                            Rhikesh Bhandare
+                            <div className="nameText">
+                                Rhikesh Bhandare
+                            </div>
+                        
+                            <div className="ReactText">
+                                i build website and mobile app 
+                            </div>
                         </div>
+                        {renderAvtar()}
                        
-                        <div className="ReactText">
-                            React / React native Devloper 
-                        </div>
+                    </div>
+
+                    {/* down arrow */}
+                    <div className="DownArraow">
+                        <img
+                            className="downImage"
+                            src={down}
+                        />
                     </div>
                 </div> 
-                
+            
             </div>
         </div>
     )

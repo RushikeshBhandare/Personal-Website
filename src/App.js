@@ -8,13 +8,23 @@ import Portfolio from './components/Portfolio';
 import ScrolingWork from './components/ScrolingWork';
 import SiteFooter from './components/SiteFooter';
 import SkillPage from './components/SkillsPage';
+import WorkForPc from './components/WorkForPc';
 
+import GetWindowSize from './components/GetWindowSize';
 
 function App() {
+  const [height, width] = GetWindowSize()
+  const renderWork = () =>{
+      if(width > 500){
+        return <WorkForPc/>
+      }else{
+        return <ScrolingWork/>
+      }
+  }
   return (
     <div>
       <HomePage/> 
-      <ScrolingWork/>
+      {renderWork()}
       <SkillPage/>
       <OtherSkills/> 
       <SiteFooter/>
