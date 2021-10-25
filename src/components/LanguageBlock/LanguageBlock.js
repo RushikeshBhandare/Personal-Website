@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import './language.css'
 
-const LanguageBlock = ( {text, image}) =>{
+const LanguageBlock = ( {text, image, colorImage}) =>{
+    const [currentImage, setCurrentImage] = useState(image)
     return(
-        <div className="language">
-            <img className="langugeImage" src={image}/>
+        <div 
+            onMouseEnter={()=>{
+                setCurrentImage(colorImage)
+            }} 
+
+            onMouseLeave={()=>{
+                setCurrentImage(image)
+            }}
+
+            className="language"
+        >
+            <img className="langugeImage" src={currentImage}/>
             <div className="languageText">
                 {text}
             </div>

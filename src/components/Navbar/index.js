@@ -4,27 +4,16 @@ import "./nav.css"
 const Navbar = () =>{
     return(
         <div className="root">
-            {/* logo if any  */}
-            <div className="sepration">
-                
-            </div>
-            {/* categories */}
-            <div className="sepration">
-                {/* <div className="category">
-                    About me
-                </div> */}
-                <div className="category">
-                    Skills
+           <div className="NavigationContainer">
+                <div className="navOptionsBlock">
+                    About
                 </div>
-                <div className="category">
-                    portfolio
+                <div className="navOptionsBlock">
+                    Portfolio
                 </div>
-                <div className="category">
-                   <div className="contact">
-                        CONTACT ME
-                   </div>
+                <div className="navOptionsBlock">
+                    CONTACT 
                 </div>
-
             </div>
         </div>
        

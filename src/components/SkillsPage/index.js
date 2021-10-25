@@ -6,7 +6,12 @@ import html from './images/html5.png'
 import css from './images/css.png'
 import js from './images/javascript.png'
 import react from './images/react.png'
-import reactNative from './images/reactNative.png'
+
+// color images
+import htmlColor from './images/html5Color.png'
+import cssColor from './images/cssColor.png'
+import jsColor from './images/javascriptColor.png'
+import reactColor from './images/reactColor.png'
 
 const SkillPage = ( ) =>{
     return(
@@ -22,11 +27,11 @@ const SkillPage = ( ) =>{
             </div>      */}
              {/* showing the list items */}
              <div className="UsingNowBlock">
-                <LanguageBlock text="HTML" image={html}/>
-                <LanguageBlock text="CSS" image={css}/>
-                <LanguageBlock text="REACT" image={react}/>
-                <LanguageBlock text="JS" image={js}/>
-                <LanguageBlock text="REACT NATIVE" image={react}/>
+                <LanguageBlock text="HTML" image={html} colorImage={htmlColor}/>
+                <LanguageBlock text="CSS" image={css} colorImage={cssColor}/>
+                <LanguageBlock text="REACT" image={react} colorImage={reactColor}/>
+                <LanguageBlock text="JS" image={js} colorImage={jsColor}/>
+                <LanguageBlock text="REACT NATIVE" image={react} colorImage={reactColor}/>
              </div>
         </div>
 
