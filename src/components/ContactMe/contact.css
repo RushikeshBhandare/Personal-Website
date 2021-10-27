@@ -1,0 +1,77 @@
+.constactRootContainer{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black ;s */
+    width: 100%;
+    margin-top: 100px;
+    flex-direction: column;
+    flex: 1;
+    /* padding: 10px; */
+}
+
+.formContainer{
+    width: 90%;
+    min-width: 350px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    box-shadow: gray -5px 5px 30px;
+
+}
+
+.formHeader{
+    font-size: 40px;
+    text-align: left;
+    color: rgb(0, 140, 255);
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    /* border: none; */
+    padding-left:  10px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-family: 'Cabin', sans-serif;
+    color: rgb(87, 87, 87);
+}
+
+.field{
+    border-bottom: 1px solid rgb(151, 151, 151);
+    /* background-color: red; */
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 350px;
+    /* display: flex; */
+}
+.field h3{
+    color: rgb(87, 87, 87);
+    margin: 10px;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.formButton{
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid rgb(165, 162, 162); */
+    border-radius: 30px;
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    box-shadow: rgb(177, 177, 177) 1px 1px 10px;
+    background-color: rgb(0, 140, 255);
+}

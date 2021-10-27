@@ -27,6 +27,7 @@ function App() {
       {renderWork()}
       <SkillPage/>
       <OtherSkills/> 
+      <ContactMe/>
       <SiteFooter/>
     </div>
   );

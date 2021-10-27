@@ -36,7 +36,7 @@ const HomePage = ( ) =>{
 
     return(
         <div style={{flex: 1, backgroundColor: 'orange ', justifyContent: 'center', alignItems:'center'}}> 
-           }
+           
 
             <div className="rootContainer">
                 {/* name and options */}
