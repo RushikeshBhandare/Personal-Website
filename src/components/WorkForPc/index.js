@@ -1,7 +1,7 @@
 import React from "react"
 import WorkBlock from "../WorkBlock"
 
-import Recipe from './images/recipe.jpg'
+import Recipe from './images/recipeApp.jpg'
 import RecipeBack from './images/noteWeb.png'
 import GK from './images/quize.jpg'
 
