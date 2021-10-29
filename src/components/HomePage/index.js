@@ -50,7 +50,7 @@ const HomePage = ( ) =>{
                             </div>
 
                             <div className="nameText">
-                                Rhikesh Bhandare
+                                Rushikesh Bhandare
                             </div>
                         
                             <div className="ReactText">
