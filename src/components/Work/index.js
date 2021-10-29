@@ -18,7 +18,7 @@ const data = [
         image: noteWeb,
         technology: 'React, Node js, Express, MongoDB',
         gitLink: 'https://github.com/RushikeshBhandare/TODO',
-        downloadLink: ''
+        downloadLink: 'https://personalnoteapp.herokuapp.com/'
     },
     {
         projectName: 'Quize App',
