@@ -1,9 +1,17 @@
 import React from "react";
 import WorkContainer from "../WorkContainer";
-import {recipeApp, quizApp, noteWeb} from '../../assets/images'
+import {recipeApp, quizApp, noteWeb, local} from '../../assets/images'
 
 
 const data = [
+    {
+        projectName: 'Local vegitable',
+        projectDetail: 'App that allow farmer to sell their vegitable direacly  ------( in progress)',
+        image: local,
+        technology: 'React Native, nodeJs',
+        gitLink: 'https://github.com/RushikeshBhandare/LocalVegitable',
+        downloadLink: 'https://drive.google.com/file/d/1oZMHraJGS_gIzXnDCY1CbXIruHgyGVXJ/view?usp=sharing'
+    },
     {
         projectName: 'Recipe App',
         projectDetail: 'Recipe app that give you access to all the recipes and their nutrition facts ',

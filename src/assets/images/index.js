@@ -1,6 +1,7 @@
 import quizApp from './quize.jpg'
 import recipeApp from './recipeApp.jpg'
 import noteWeb from './noteWeb.png'
+import local from './Local.jpg'
 
 const Images = [
     quizApp,
@@ -11,5 +12,6 @@ const Images = [
 export {
     quizApp,
     recipeApp,
-    noteWeb
+    noteWeb,
+    local
 }
